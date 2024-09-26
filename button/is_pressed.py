@@ -1,4 +1,4 @@
-# Button Wait For Press Function
+# Is Pressed Attribute
 from gpiozero import Button
 
 button = Button(5)

@@ -1,4 +1,4 @@
-# Momentary Switch Using When Pressed and When Released Functions
+# Momentary Switch Using When Pressed and When Released Attributes
 from gpiozero import Button, LED
 from signal import pause
 

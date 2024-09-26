@@ -1,4 +1,4 @@
-# Button Wait for Press and Wait for Release Functions
+# Wait for Press and Wait for Release Methods
 from gpiozero import Button, LED
 
 button = Button(6)

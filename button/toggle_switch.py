@@ -1,4 +1,4 @@
-# Toggle Switch Using Wait For Press
+# Toggle Switch Using Wait For Press Method
 from gpiozero import Button, LED
 from time import sleep
 

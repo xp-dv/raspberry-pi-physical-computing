@@ -1,11 +1,11 @@
 # Traffic Lights Sequence (UK Standard)
-from gpiozero import TrafficLights, Button, Buzzer
+from gpiozero import TrafficLights, Button
 from time import sleep
 
-lights = TrafficLights(4, 5, 6)
-button = Button(27)
-buzzer = Buzzer(13)
+lights = TrafficLights(6, 5, 4)
+button = Button(26)
 
+lights.green.on()
 while True:
   button.wait_for_press()
   lights.green.off()
